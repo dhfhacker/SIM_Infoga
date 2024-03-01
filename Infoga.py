@@ -28,7 +28,7 @@ info = "%s[%s+%s]%s "%(red,stop,red,yellow)
 error = "%s[%s!%s]%s "%(blue,stop,blue,red)
 success = "%s[%s√%s]%s "%(purple,stop,purple,green)
 version = "2.0.1.6"
-lib = ["countryinfo","lolcat","figlet","phonenumbers","opencage"]
+lib = ["countryinfo","lolcat","figlet","requests","phonenumbers","opencage"]
 
 def slow(dhf):
     for a in dhf + '\n':
@@ -55,9 +55,9 @@ def DHF():
     return usage
     os.sys.exit()
 
-try:import lolcat, figlet opencage, countryinfo, phonenumbers
+try:import lolcat, figlet, requests, opencage, countryinfo, phonenumbers
 except ModuleNotFoundError:
-    os.system("figlet DHF Infoga || lolcat")
+    os.system("figlet DHF Infoga | lolcat")
     slow("%sSetting up ur environment%s"%(info2,stop))
     for i in lib:os.system("pip install %s"%(i))
     os.system("pip install folium")
@@ -78,7 +78,7 @@ def internet():
     
 def aboutme():
     os.system("clear || cls")
-    os.system("figlet DHF Infoga || lolcat")
+    os.system("figlet DHF Infoga | lolcat")
     slow("%s"%(red))
     slow("-"*60)
     slow('\t%sTool Name     %s:>>%s Infoga'%(info,blue,yellow))
@@ -87,7 +87,7 @@ def aboutme():
     slow("\t%sGithub        %s:>>%s DHF Hacker"%(info,blue,yellow))
     slow("\t%sYoutube       %s:>>%s DHF Hacker"%(info,blue,yellow))
     slow("\t%sLatest Update %s:>>%s 25-02-2024"%(info,blue,yellow))
-    slow("\t%sWebsite       %s:>>%s www.dhfhackers.com.org"%(info,blue,yellow))
+    slow("\t%sWebsite       %s:>>%s www.dhfhackers.org"%(info,blue,yellow))
     slow("\t%sEmail         %s:>>%s darkhackingforce@gmail.com%s"%(info,blue,yellow,red))
     slow("-"*60)
     slow("%s"%(stop))
@@ -95,7 +95,7 @@ def aboutme():
     
 def updateme():
     os.system("clear || cls")
-    os.system("figlet DHF Infoga || lolcat")
+    os.system("figlet DHF Infoga | lolcat")
     slow("Checking For Update...")
     time.sleep(1)
     slow("Update Found!")
