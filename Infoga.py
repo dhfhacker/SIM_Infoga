@@ -55,7 +55,7 @@ def DHF():
     return usage
     os.sys.exit()
 
-try:import lolcat, figlet, requests, opencage, countryinfo, phonenumbers
+try:import lolcat, pyfiglet, requests, opencage, countryinfo, phonenumbers
 except ModuleNotFoundError:
     os.system("pyfiglet DHF Infoga | lolcat")
     slow("%sSetting up ur environment%s"%(info2,stop))
