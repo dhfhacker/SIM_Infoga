@@ -28,7 +28,7 @@ info = "%s[%s+%s]%s "%(red,stop,red,yellow)
 error = "%s[%s!%s]%s "%(blue,stop,blue,red)
 success = "%s[%s√%s]%s "%(purple,stop,purple,green)
 version = "2.0.1.6"
-lib = ["countryinfo","lolcat","figlet","requests","phonenumbers","opencage"]
+lib = ["countryinfo","lolcat","pyfiglet","requests","phonenumbers","opencage"]
 
 def slow(dhf):
     for a in dhf + '\n':
@@ -57,7 +57,7 @@ def DHF():
 
 try:import lolcat, figlet, requests, opencage, countryinfo, phonenumbers
 except ModuleNotFoundError:
-    os.system("figlet DHF Infoga | lolcat")
+    os.system("pyfiglet DHF Infoga | lolcat")
     slow("%sSetting up ur environment%s"%(info2,stop))
     for i in lib:os.system("pip install %s"%(i))
     os.system("pip install folium")
@@ -78,7 +78,7 @@ def internet():
     
 def aboutme():
     os.system("clear || cls")
-    os.system("figlet DHF Infoga | lolcat")
+    os.system("pyfiglet DHF Infoga | lolcat")
     slow("%s"%(red))
     slow("-"*60)
     slow('\t%sTool Name     %s:>>%s Infoga'%(info,blue,yellow))
@@ -95,7 +95,7 @@ def aboutme():
     
 def updateme():
     os.system("clear || cls")
-    os.system("figlet DHF Infoga | lolcat")
+    os.system("pyfiglet DHF Infoga | lolcat")
     slow("Checking For Update...")
     time.sleep(1)
     slow("Update Found!")
@@ -190,7 +190,13 @@ def infoga(cncode,number):
                 time.sleep(1)
                 slow("%sCould not get Aerial Coverage for this number.%s"%(error,stop))
                 os.sys.exit()
-            slow("")
+            slow("%sRunning OVH scan..."%(purple))
+            slow("%sRunning OSINT footprint reconnissance..."%(purple))
+            slow("%sGeerating scan URL on 411.com!"%(green))
+            slow("%sScan URL %s:>>%s https://www.411.com/phone/%s"%(skyblue,blue,green,inter.replace(" ","-")))
+            time.sleep(2)
+            slow("%s\nPrograms rans Successfully\nThanks for Using this Tool%s"%(green,stop))
+            os.sys.exit()
             
         else:
             c = "Unkown"
