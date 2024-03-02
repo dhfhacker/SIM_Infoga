@@ -8,7 +8,7 @@
   Sim Infoga is an tool that gathers information based on sim and it country,<br> and it was build with the help of python programming language.
   
   ## Purpose of SIM Infoga?
-  Actually...!, this can be catagorized in to three.
+  ***Actually...!, this can be catagorized in to three.***
   * It gathers information on phone number and it country.
   * And locate the approximately location of the phone number.
   * Then Generate a link that will track the phone number on a map.
@@ -36,9 +36,8 @@
   python3 Infoga.py -c [Country_Code] -p [Phone_Number]
   ```
 
-  ## SIM Infoga Usage
-  
-   Useage: python3 Infoga.py [OPTION...]
+  ## SIM Infoga Usage  
+  Useage: python3 Infoga.py [OPTION...]
   ------------
       | OPTIONS
       |----------
