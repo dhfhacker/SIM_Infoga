@@ -1,6 +1,6 @@
 <h1 align="center">SIM INFOGA</h1>
 
-<p align="center"> ![IMG_20240301_220917_191](https://github.com/dhfhacker/SIM_Infoga/assets/160487457/52add748-86ef-4438-9d50-559932bc2083) </p>
+<p align="center"> ![unnamed (2)]([https://github.com/dhfhacker/SIM_Infoga/assets/160487457/52add748-86ef-4438-9d50-559932bc2083](https://github.com/dhfhacker/SIM_Infoga/blob/main/IMG_20240301_220917_191.jpg)) </p>
 
 <p>  
 
