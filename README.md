@@ -1,6 +1,6 @@
-<h1  align="center">SIM INFOGA</h1>
-<p>
-  
+<h1 align="center">SIM INFOGA</h1>
+<span align="center"> ![Uploading IMG_20240301_220917_191.jpg…]() </span>
+<p>  
   ## What infoga means?
   Infoga is an abbreviation for Information Gathering and is a tool for gathering information on victim's
   
@@ -35,9 +35,8 @@
   ```
   python3 Infoga.py -c [Country_Code] -p [Phone_Number]
   ```
-
-  ## SIM Infoga Usage  
-  Useage: python3 Infoga.py [OPTION...]
+  
+  ## Useage: python3 Infoga.py [OPTION...]
   ------------
       | OPTIONS
       |----------
@@ -50,7 +49,6 @@
             | python3 Infoga.py -u                   | Script Updating
             | python3 Infoga.py -a DHF               | About  Tool & Author
             | python3 Infoga.py -c 234 -p 7000000000 | Specify victim's Country Code & Phone Number         
-
-  
 </p>
+<span align="center"> ![Untitled](https://github.com/dhfhacker/SIM_Infoga/assets/160487457/bb9111f5-ff35-4824-8c86-cf25f6d01ae0) </span>
 
