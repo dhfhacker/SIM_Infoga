@@ -8,7 +8,7 @@
   Infoga is an abbreviation for Information Gathering and is a tool for gathering information on victim's
   
   ## What is SIM Infoga?
-  Sim Infoga is an tool that gathers information based on sim and it country,<br> and it was build with the help of python programming language.
+  Sim Infoga is a tool that gathers information based on sim and it country,<br> which was build with the help of python programming language.
   
   ## Purpose of SIM Infoga?
   ***Actually...!, this can be catagorized in to three.***
