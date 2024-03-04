@@ -1,6 +1,6 @@
 <h1 align="center">SIM INFOGA</h1>
 
-<p align="center"> ![SIM Infoga)]([IMG_20240301_220917_191.jpg]) </p>
+![SIM Infoga)](IMG_20240301_220917_191.jpg)
 
 <p>  
 
@@ -55,6 +55,6 @@
             | python3 Infoga.py -c 234 -p 7000000000 | Specify victim's Country Code & Phone Number         
 </p>
 
-<p align="center"> ![python to track phone number on a map]([Untitled.png]) </p>
+<img alt="python to track phone number on a map" src="Untitled.png">
 
 
