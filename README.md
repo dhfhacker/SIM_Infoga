@@ -1,7 +1,7 @@
 <h1 align="center">SIM INFOGA</h1>
 
-![SIM Infoga)](IMG_20240301_220917_191.jpg)
-
+<p  align="center">![SIM Infoga)](IMG_20240301_220917_191.jpg)
+</p>
 <p>  
 
   ## What infoga means?
@@ -55,6 +55,6 @@
             | python3 Infoga.py -c 234 -p 7000000000 | Specify victim's Country Code & Phone Number         
 </p>
 
-<img alt="python to track phone number on a map" src="Untitled.png">
+<p align="center"><img alt="python to track phone number on a map" src="Untitled.png"></p>
 
 
