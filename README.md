@@ -1,6 +1,6 @@
 <h1 align="center">SIM INFOGA</h1>
 
-<p  align="center">![SIM Infoga)](IMG_20240301_220917_191.jpg)
+<p  align="center"><img alt="SIM Infoga" src="IMG_20240301_220917_191.jpg">
 </p>
 <p>  
 
