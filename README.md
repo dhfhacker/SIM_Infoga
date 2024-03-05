@@ -29,6 +29,7 @@
     <hr>
     <h2>Installation in Termux and Usage</h2>
     <i>Download Termux app from google play store and type following commands</i>
+    
     <pre>
       <code>
       apt update && apt upgrade
@@ -45,8 +46,10 @@
       <code>
       python3 Infoga.py -c [Country_Code] -p [Phone_Number]
       </code>
-    </pre>  
+    </pre>
+    
     <hr>
+    
     <h2>SIM_Infoga Usage</h2>
     <pre>
       <code>
